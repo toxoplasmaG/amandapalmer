@@ -1,0 +1,107 @@
+*{
+    font-family:  'Open Sans', sans-serif;
+    /* The font-size and font-family values are required */
+    /* shorthand: font-style-variant-weight-size/line-height-family */
+    box-sizing: border-box;
+    color: dimgray;
+}
+html, body, main{
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: #F9F3B2;
+}
+.nav ul{
+    margin: 0;
+    padding-right: 10px;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .10%;
+    color:rgb(153, 51, 51);
+    text-decoration: none;
+}
+.main-nav{
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bolder;
+    border-bottom: solid 1px white;
+}
+.nav a:hover{
+    background-color: rgb(255, 255, 255);
+}
+.main-header{
+    background: rgba(0,0,0,0.3) url('imagenes/roses_header.jpg') no-repeat scroll;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 40px;
+}
+.artist{
+    text-align:center;
+    margin:0;
+    color:ghostwhite;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7rem;
+}
+.artist-large{
+    font-size: 9rem;
+}
+.content{
+    margin: 1em;
+}
+.section-container{
+    max-height:max-content;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.video{
+    height: 24rem;
+    width: 45rem;
+    padding-left: 10%;
+}
+.section-header{
+    font-weight: bolder;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+.amanda-image{
+    border-radius: 30% 30%;
+    float: left;
+    height: 13%;
+    margin: 10px;
+}
+.paragraph-about{
+    text-align: justify;
+}
+.main-footer{
+    background-color: #e7b75f;
+    background-image: linear-gradient(to right, #ffac13, #e7b75f);
+    /* Choose a colour it's hard BUT then pick an alternative colour, coulour schemes, shades and tints, tones it's for true-masters-of-colour */
+    padding: .25em 0;
+    display: flex;
+    align-items: flex-end;
+}
+.paragraph-footer{
+    color: white;
+}
+h3{
+    align-items: center;
+}
+.redes-sociales{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+    align-items:flex-end;
+    height: 200px;
+}
