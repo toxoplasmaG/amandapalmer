@@ -4,21 +4,13 @@
     /* shorthand: font-style-variant-weight-size/line-height-family */
     box-sizing: border-box;
     color: dimgray;
-}
-html, body, main{
     margin: 0;
     padding: 0;
-    width: 100%
-}
-body{
-    display: flex;
-    flex-direction: column;
 }
 main{
     background-color: #F9F3B2;
 }
 .nav ul{
-    margin: 0;
     padding-right: 10px;
 }
 .nav li{
@@ -62,11 +54,11 @@ main{
     max-height:max-content;
     margin: 0 auto;
     padding: 0 1.5em;
+    overflow: auto;
 }
 .video{
     height: 24rem;
     width: 45rem;
-    padding-left: 10%;
 }
 .section-header{
     font-weight: bolder;
@@ -90,6 +82,7 @@ main{
     padding: .25em 0;
     display: flex;
     align-items: flex-end;
+    overflow: auto;
 }
 .paragraph-footer{
     color: white;

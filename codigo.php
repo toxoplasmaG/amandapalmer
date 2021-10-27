@@ -9,10 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css">>
     <title>Amanda Palmer | Thank You</title>
 </head>
 <body> <!-- God knows I don't know exactly what I'm doing -->
@@ -49,8 +47,8 @@
     <footer>
         <h3>Amanda Palmer</h3>
         <ul>
-            <li><a href="https://open.spotify.com/artist/726Dh6A5VyDfAAQxilT6A0" target="_blank"><img src="/imagenes/spotify_logo.png" alt="logo de spotify"></a></li>
-            <li><a href="https://www.youtube.com/user/amandapalmer" target="_blank"><img src="/imagenes/youtube_logo.png" alt="logo de youtube"></a></li>
+            <li><a href="https://open.spotify.com/artist/726Dh6A5VyDfAAQxilT6A0" target="_blank"><img src="/amandapalmer/imagenes/spotify_logo.png" alt="logo de spotify"></a></li>
+            <li><a href="https://www.youtube.com/user/amandapalmer" target="_blank"><img src="/amandapalmer/imagenes/youtube_logo.png" alt="logo de youtube"></a></li>
         </ul>
         <p>╰( ´・ω・)つ──☆✿✿✿✿✿✿ I´m a footer plz don't forget me uWu</p>
     </footer>
