@@ -32,7 +32,7 @@ main{
     background-color: rgb(255, 255, 255);
 }
 .main-header{
-    background: rgba(0,0,0,0.3) url('imagenes/roses_header.jpg') no-repeat scroll;
+    background: rgba(0,0,0,0.3) url('img/roses_header.jpg') no-repeat scroll;
     background-size: cover;
     background-blend-mode: multiply;
     padding-bottom: 40px;
